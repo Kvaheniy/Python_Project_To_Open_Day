@@ -186,6 +186,7 @@ class FirstApp(MainApp):
         """
         if self.language == "UA":
             self.language = "EN"
+            self.use_digits.setText("Digits (0-9)")
             self.setWindowTitle("Password Generator")
             self.generate_button.setText("Generate")
             self.copy_button.setText("Copy")
